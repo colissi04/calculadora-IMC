@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --primary-color: rgb(177, 237, 237);
+}
+
+*{
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:  rgb(5, 49, 49);
+}
+
+.container {
+    background: rgb(204, 203, 202);
+    border-radius: 10px;
+    width: 700px;
+    height: 800px;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.infos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imc {
+    padding-left: 20px;
+}
+
+.resultado {
+    padding-right: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 40px;
+}   
+
+form input {
+    width: 550px;
+    height: 40px;
+}
+
+form button {
+    width: 550px;
+    height: 40px;
+    margin-top: 10px;
+    background-color: rgb(5, 49, 49);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+h1 {
+    padding-left: 10px;
+}
+
+input[type="text"]::-webkit-outer-spin-button,
+input[type="text"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+#resposta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(96, 154, 96);
+    color: white;
+    width: 550px;
+    height: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+    border-radius: 4px;
+    display: none;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
