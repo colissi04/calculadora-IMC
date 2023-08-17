@@ -17,9 +17,9 @@ const meuEscopo = () => {
 
 
         if (isNaN(peso.value)){
-            return alert('Digite informacoes validas!!');
+            return alert('Digite informações válidas!!');
         } else if (isNaN(altura.value)){
-            return alert('Digite informacoes validas!!');
+            return alert('Digite informações válidas!!');
         } else {
             // os dados estao ok
         }
